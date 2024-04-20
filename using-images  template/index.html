@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Images</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Using Images</h1>
+    </header>
+    <div id="background">
+      <h2>Background Image</h2>
+    </div>
+    <div id="img-map">
+      <h2>Image Map</h2>
+      <img src="images/workplace.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="keyboard" title="keyboard" href="#keyboard" coords="223,271,538,401" shape="rect">
+    <area target="" alt="headphones" title="headphones" href="#headphones" coords="100,309,99" shape="circle">
+    <area target="" alt="harddrive" title="harddrive" href="#harddrive" coords="479,15,623,242" shape="rect">
+    <area target="" alt="mouse" title="mouse" href="#mouse" coords="560,280,623,401" shape="rect">
+</map>
+    </div>
+    <div id="float-left">
+      <h2>Float Left</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere alias reprehenderit laboriosam at laudantium necessitatibus excepturi ad distinctio mollitia! 
+        Earum, pariatur fugit dolorum delectus debitis atque modi sunt suscipit.</p>
+      <img src="images/bicycle.jpg" alt="bicycle">
+    </div>
+    <div id="float-right">
+      <h2>Float Right</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facere alias reprehenderit laboriosam at laudantium necessitatibus excepturi ad distinctio mollitia! 
+        Earum, pariatur fugit dolorum delectus debitis atque modi sunt suscipit.</p>
+      <img src="images/bicycle.jpg" alt="bicycle">
+    </div>
+    <div id="picture-tag">
+      <h2>Picture Tag</h2>
+      <picture>
+        <source media="(min-width: 950px)" srcset="images/cat.jpg">
+        <source media="(min-width: 665px)" srcset="images/dogs.jpg">
+        <img src="images/tree.jpg">
+      </picture>
+    </div>
+    <div id="linked-image">
+      <h2>Linked Image</h2>
+      <img src="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg" alt="kitten">
+    </div>
+    <div id="img-as-link">
+      <h2>Image As Link</h2>
+      <a href="https://www.trekbikes.com/us/en_US/?avad=220733_b3913a82d"><img src="images/bicycle.jpg" alt="trek bicycle"></a>
+    </div>
+    <div id="keyboard">
+      <h2>keyboard</h2>
+    </div>
+    <div id="harddrive">
+      <h2>harddrive</h2>
+    </div>
+    <div id="headphones">
+      <h2>headphones</h2>
+    </div>
+    <div id="mouse">
+      <h2>mouse</h2>
+    </div>
+  </body>
+</html>
